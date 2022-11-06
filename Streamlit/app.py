@@ -6,7 +6,7 @@ import pickle
 import scorecardpy as sc
 
 
-model = joblib.load("logistic regression.joblib")
+model = pickle.load(open("logistic regression.pkl","rb"))
 scorecard = pickle.load(open("scorecard.pkl", "rb"))
 image = pickle.load(open("hc_image.pkl", "rb"))
 
