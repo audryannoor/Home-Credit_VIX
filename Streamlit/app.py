@@ -10,7 +10,9 @@ current_directory = Path(__file__).parent #Get current directory
 lr_model = open(os.path.join(current_directory, 'logistic regression.pkl'), 'rb')
 card = open(os.path.join(current_directory, 'scorecard.pkl'), 'rb')
 hc_image = open(os.path.join(current_directory, 'hc_image.pkl'), 'rb')
+bins = open(os.path.join(current_directory,'bins_woe.pkl','rb'))
 
+bin_woe = pickle.load(bins)
 model = pickle.load(lr_model)
 scorecard = pickle.load(card)
 image = pickle.load(hc_image)
@@ -70,9 +72,13 @@ def predict():
     result = credit_score.iloc[0,0]
     st.sidebar.write(NAME,"Your Credit Score",result)
     
-    if result < 500:
-        st.sidebar.error("Credit Application Rejected")
+    X_WOE = sc.woebin_ply(X, bins = bin_woe)
+    prediction = model.predict(X_WOE)[0]
+
+    if prediction == 1:
+        st.sidebar.error('Credit Application Rejected')
     else:
-        st.sidebar.success("Credit application Approved")
+        st.sidebar.success('Credit Application Approved')
+
 
 st.button('Predict', on_click = predict)
