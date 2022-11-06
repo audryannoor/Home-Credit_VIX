@@ -10,7 +10,7 @@ current_directory = Path(__file__).parent #Get current directory
 lr_model = open(os.path.join(current_directory, 'logistic_regression.pkl'), 'rb')
 card = open(os.path.join(current_directory, 'scorecard.pkl'), 'rb')
 hc_image = open(os.path.join(current_directory, 'hc_image.pkl'), 'rb')
-bins = open(os.path.join(current_directory,'bins_woe.pkl','rb'))
+bins = open(os.path.join(current_directory,'bins_woe.pkl'),'rb')
 
 bin_woe = pickle.load(bins)
 model = pickle.load(lr_model)
