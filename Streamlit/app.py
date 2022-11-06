@@ -5,7 +5,7 @@ import joblib
 import pickle
 import scorecardpy as sc
 from PIL import Image
-image = Image.open('hc.png')
+image = Image.open('https://github.com/audryannoor/Home-Credit_VIX/blob/main/Streamlit/hc.png')
 
 model = joblib.load("logistic regression.joblib")
 scorecard = pickle.load(open("scorecard.pickle", "rb"))
