@@ -21,7 +21,7 @@ st.sidebar.image(image)
 st.sidebar.title('Credit Score Prediction')
 st.sidebar.write("Created By Rafif Noor Audryan")
 st.sidebar.write ("Linkedin: https://www.linkedin.com/in/rafif-noor-audryan/")
-st.sidebar.write("Dataset Based On [link]:https://www.kaggle.com/competitions/home-credit-default-risk/data")
+st.sidebar.write("Dataset Based On [link](https://www.kaggle.com/competitions/home-credit-default-risk/data)")
 
 NAME = st.text_input('Input Your Name','Anonim')
 AGE = st.number_input('Input Your Age',15,100)
