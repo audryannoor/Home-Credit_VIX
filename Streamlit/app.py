@@ -3,11 +3,16 @@ import numpy as np
 import pandas as pd
 import pickle
 import scorecardpy as sc
+from pathlib import Path
 
+current_directory = Path(__file__).parent #Get current directory
+lr_model = open(os.path.join(current_directory, 'logistic regression.pkl'), 'rb')
+card = open(os.path.join(current_directory, 'scorecard.pkl'), 'rb')
+hc_image = open(os.path.join(current_directory, 'hc_image.pkl'), 'rb')
 
-model = pickle.load(open("logistic regression.pkl","rb"))
-scorecard = pickle.load(open("scorecard.pkl", "rb"))
-image = pickle.load(open("hc_image.pkl", "rb"))
+model = pickle.load(lr_model)
+scorecard = pickle.load(card)
+image = pickle.load(hc_image)
 
 st.sidebar.image(image)
 st.sidebar.title('Credit Score Prediction')
