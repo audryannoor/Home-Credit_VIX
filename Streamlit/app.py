@@ -8,7 +8,6 @@ from PIL import Image
 image = Image.open('hc.png')
 
 model = joblib.load("logistic regression.joblib")
-bins_woe = pickle.load(open("bins_woe.pickle", "rb"))
 scorecard = pickle.load(open("scorecard.pickle", "rb"))
 
 st.sidebar.image(image)
