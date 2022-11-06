@@ -4,11 +4,11 @@ import pandas as pd
 import joblib
 import pickle
 import scorecardpy as sc
-from PIL import Image
-image = Image.open('https://github.com/audryannoor/Home-Credit_VIX/blob/0b41d8d20622467e82cca8205682035130ca5c3a/Streamlit/hc.png')
+
 
 model = joblib.load("logistic regression.joblib")
 scorecard = pickle.load(open("scorecard.pickle", "rb"))
+image = pickle.load(open("hc_image.pickle", "rb"))
 
 st.sidebar.image(image)
 st.sidebar.title('Credit Score Prediction')
