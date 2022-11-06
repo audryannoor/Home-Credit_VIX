@@ -7,8 +7,8 @@ import scorecardpy as sc
 
 
 model = joblib.load("logistic regression.joblib")
-scorecard = pickle.load(open("scorecard.pickle", "rb"))
-image = pickle.load(open("hc_image.pickle", "rb"))
+scorecard = pickle.load(open("scorecard.pkl", "rb"))
+image = pickle.load(open("hc_image.pkl", "rb"))
 
 st.sidebar.image(image)
 st.sidebar.title('Credit Score Prediction')
