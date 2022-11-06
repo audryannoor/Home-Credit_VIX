@@ -20,7 +20,7 @@ image = pickle.load(hc_image)
 st.sidebar.image(image)
 st.sidebar.title('Credit Score Prediction')
 st.sidebar.write("Created By Rafif Noor Audryan")
-st.sidebar.write ("Linkedin: https://www.linkedin.com/in/rafif-noor-audryan/")
+st.sidebar.write ("My [Linkedin](https://www.linkedin.com/in/rafif-noor-audryan/)")
 st.sidebar.write("Dataset Based On [Home Credit](https://www.kaggle.com/competitions/home-credit-default-risk/data)")
 
 NAME = st.text_input('Input Your Name','Anonim')
