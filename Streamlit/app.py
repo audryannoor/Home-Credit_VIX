@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import scorecardpy as sc
+import os
 from pathlib import Path
 
 current_directory = Path(__file__).parent #Get current directory
