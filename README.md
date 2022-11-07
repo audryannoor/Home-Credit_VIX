@@ -11,14 +11,14 @@ Home Credit has a problem where it requires efficiency and speed in receiving lo
 
 **Data Processing with scorecardpy**
 ---
-1. Feature Selection based information value from scorecardpy
-2. Feature Engineering to bin using Weight of Evidence and Information Value from scorecardpy
+1. Feature Selection based Information Value from `scorecardpy`
+2. Feature Engineering to bin using Weight of Evidence and Information Value from `scorecardpy`
 
 
 **Modelling**
 ---
 1. Split dataset with ratio 70% Train : 30% Test
-2. Imbalance target data handling
+2. Imbalance target data handling with SMOTE
 3. Evaluation target is AUC Score 
 4. Logistic Regression Model are tested with hyperparameter tuning result to get best AUC Score value
 5. Logistic Regression with hyperparameter tuning get better result where the AUC Score value obtained is 73.04%
