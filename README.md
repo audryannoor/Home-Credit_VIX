@@ -9,6 +9,12 @@ Home Credit has a problem where it requires efficiency and speed in receiving ap
 3. Manual Feature Engineering
 4. Generated df_preprocessing
 
+**Some Insight**
+---
+![Total customer income type](https://user-images.githubusercontent.com/68262798/200226543-5c59cb6e-a9a6-41bd-9aa8-d4c141ea2059.png)
+![total acc based income type](https://user-images.githubusercontent.com/68262798/200226557-279c2069-7304-41b9-a26d-2c9dcf1184ef.png)
+
+
 **Data Processing with scorecardpy**
 ---
 1. Feature Selection based Information Value from `scorecardpy`
