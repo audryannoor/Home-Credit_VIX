@@ -1,6 +1,6 @@
 **Background**
 ---
-Home Credit has a problem where it requires efficiency and speed in receiving loans from each customer. As a Data Science Intern from Home Credit, we will to process data and create models that are able to predict and assess optimal credit applications and predict credit score customer. To facilitate the predicition, we will create a credit scorecard based on the logistic regression model. Finally, we will provide solutions for lending companies how the insights we get.
+Home Credit has a problem where it requires efficiency and speed in receiving application credit from each customer. As a Data Science Intern from Home Credit, we will to process data and create models that are able to predict and assess optimal credit applications and predict credit score customer. To facilitate the predicition, we will create a credit scorecard based on the logistic regression model. Finally, we will provide solutions for Home Credit with simulation how our model work to predict credit risk customer.
 
 **Data Pre-processing**
 ---
