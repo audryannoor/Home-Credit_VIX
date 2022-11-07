@@ -36,6 +36,13 @@ Home Credit has a problem where it requires efficiency and speed in receiving lo
 ---
 1. Obtain scorecard each feature based on coefficient of Logistic Regression
 2. Show scorecard feature that can boost credit score customer and can reduce credit score customer
-3. Simulation predict from our model deployed on streamlit. Simulation will predict how much credit score each customer get based on scorecard and predict is application credit will approved or rejected. 
+ 
+![Scorecard](https://user-images.githubusercontent.com/68262798/200217239-91262896-876e-43dd-9831-c9e1a5a2bb68.png)
+
+3. Simulation predict from our model deployed on streamlit. Simulation will predict how much credit score each customer get based on scorecard and predict is application credit will approved or rejected.
+Interface:
+
+![Screenshot (217)](https://user-images.githubusercontent.com/68262798/200217778-6e355640-6451-455b-85f1-6bf4a2198590.png)
+
 
 **Simulation Credit Score Predicition [Here](https://audryannoor-home-credit-vix-streamlitapp-c7h57p.streamlit.app/)**
