@@ -16,6 +16,7 @@ Home Credit has a problem where it requires efficiency and speed in receiving lo
 3. Logistic Regression with hyperparameter tuning get better result where the AUC Score value obtained is 73.04%
 4. Generated best model using Logistic Regression with score 0.34 on Kolmogorov–Smirnov (KS - Statistic).
 ![AUC   KS](https://user-images.githubusercontent.com/68262798/200212973-3006a673-af71-4985-a682-adc2edc5193d.png)
+![AUC   KS Test](https://user-images.githubusercontent.com/68262798/200213743-239950ab-0513-4759-aa4d-a1b114223b1e.png)
 
 
 **Credit Score**
